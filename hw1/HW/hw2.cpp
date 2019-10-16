@@ -14,6 +14,6 @@ int main(void)
 	printf("%f\n", (9 / 5) * a + 32);
 	printf("%f\n", (9 / 5) * b + 32);
 	printf("%f\n", (9 / 5) * c + 32);
-	printf(" 이다.");
+	printf(" 이다");
 
 }
