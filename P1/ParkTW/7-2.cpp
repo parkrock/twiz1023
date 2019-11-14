@@ -1,18 +1,14 @@
 #include <stdio.h>
 int main()
 {
-	int i, j;
+	int data = 100;
+	int *ptrint;
+	ptrint = &data;
 
-	for (i = 1; i <= 5; i++)
-	{
-		for (j = 5; j >= 1; j--)
-		{
-			if (i < j)
-				printf(" ");
-			else
-				printf("%d", j);
-		}
-		printf("\n");
-	}
-	return 0;
+	printf("변수명  주소값		저장값\n");
+	printf("---------------------------------\n");
+	printf("  data	%p	%8d\n", &data, data);
+	printf("ptrint  %p	%p\n", &ptrint, ptrint);
+
+	void;
 }
